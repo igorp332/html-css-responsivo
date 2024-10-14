@@ -5,9 +5,13 @@
     --white: #FFFFFF;
     --orange: #EB9B00;
     --gradient-blue: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --main-source: "Poppins"
 }
 
 body {
     background-color: var(--background-color);
+    font-family: var(--main-source);
+    font-size: 16px;
+    font-weight: 400;
 }
 
